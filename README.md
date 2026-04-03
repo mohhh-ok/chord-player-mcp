@@ -14,7 +14,7 @@ brew install fluid-synth
 
 ## Setup (Claude Code)
 
-Add the following to your MCP settings:
+Add the following to the `mcpServers` section in your `~/.claude.json`:
 
 ```json
 {
