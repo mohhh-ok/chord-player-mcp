@@ -1,0 +1,16 @@
+[project]
+name = "chord-player-mcp"
+version = "0.1.0"
+description = "MCP server for playing chord progressions via MIDI/WAV"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp",
+    "midiutil",
+]
+
+[project.scripts]
+chord-player-mcp = "chord_player_mcp:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
